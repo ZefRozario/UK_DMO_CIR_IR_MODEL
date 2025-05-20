@@ -12,7 +12,7 @@ This project models and simulates UK government gilt yields using the Cox-Ingers
 
 ## Interactive Preview
 
-![plot](docs/preview.gif)
+![plot](./simulated_cir_gilt_yields.gif)
 
 ## Getting Started
 
