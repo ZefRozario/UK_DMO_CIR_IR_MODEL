@@ -1,6 +1,6 @@
 # UK Gilt Modeling with CIR Interest Rate Model
 
-This project models and simulates UK government gilt yields using the Cox-Ingersoll-Ross (CIR) model. It includes parameter calibration, stochastic simulation, and interactive yield visualizations.
+This project models and simulates UK government gilt yields using the Cox-Ingersoll-Ross (CIR) model. It includes parameter calibration, stochastic simulation, and some cool looking plots. All data used is from the official [UK Department of Debt Managment Office.](https://www.dmo.gov.uk/data/ExportReport?reportCode=D4H) 
 
 ## Features
 
@@ -46,10 +46,10 @@ $$
 - Pricing zero-coupon bonds
 - Valuation of interest rate derivatives
 
+# Quantitative Easing and Quantitative Tightening 
 
-### Applications:
-- Modeling the evolution of interest rates
-- Pricing zero-coupon bonds
-- Valuation of interest rate derivatives
+- Built a Hiddent Markov Modle to tak the DMO data and classify it into 2 regiemes inorder to understand if we were in a Quantitative Easing or Quantitative Tightening regime.
+- ![plot](./Hidden_Markov_Model_Regime_Detection_on_Gilt_Yields.png)
+- Regime 0 correspons to QT and Regime 1 corresponds to QE
 
 
