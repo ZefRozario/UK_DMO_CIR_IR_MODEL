@@ -22,23 +22,30 @@ The **Cox-Ingersoll-Ross (CIR) model** is a one-factor short rate model used to 
 
 The CIR model is defined by the following stochastic differential equation (SDE):
 
-\[
-dr_t = \kappa (\theta - r_t) dt + \sigma \sqrt{r_t} \, dW_t
-\]
+$$
+dr_t = \kappa (\theta - r_t) \, dt + \sigma \sqrt{r_t} \, dW_t
+$$
 
 ### Where:
-- \( r_t \): the instantaneous short rate at time \( t \)
-- \( \kappa > 0 \): the **mean-reversion speed**
-- \( \theta > 0 \): the **long-term mean level**
-- \( \sigma > 0 \): the **volatility coefficient**
-- \( W_t \): a standard **Brownian motion**
+- $r_t$: the instantaneous short rate at time $t$
+- $\kappa > 0$: the **mean-reversion speed**
+- $\theta > 0$: the **long-term mean level**
+- $\sigma > 0$: the **volatility coefficient**
+- $W_t$: a standard **Brownian motion**
 
 ### Properties:
-- **Mean-reverting**: The rate tends to return to \( \theta \) over time.
-- **Non-negative rates**: Thanks to the square root term \( \sqrt{r_t} \), the model avoids negative interest rates if the **Feller condition** is satisfied:
-  \[
-  2\kappa\theta \geq \sigma^2
-  \]
+- **Mean-reverting**: The rate tends to return to $\theta$ over time.
+- **Non-negative rates**: Thanks to the square root term $\sqrt{r_t}$, the model avoids negative interest rates if the **Feller condition** is satisfied:
+
+$$
+2\kappa\theta \geq \sigma^2
+$$
+
+### Applications:
+- Modeling the evolution of interest rates
+- Pricing zero-coupon bonds
+- Valuation of interest rate derivatives
+
 
 ### Applications:
 - Modeling the evolution of interest rates
