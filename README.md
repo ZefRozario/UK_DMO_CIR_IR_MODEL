@@ -10,7 +10,7 @@ This project models and simulates UK government gilt yields using the Cox-Ingers
 - Model calibration using real historical yields
 - Extendable structure for full yield curve modeling
 
-## Interactive Preview
+## A Cool Plot
 
 ![plot](./simulated_cir_gilt_yields.gif)
 
